@@ -10,7 +10,7 @@
       handler: function (request, reply) {
         var content = ''; 
         var req = https.request({
-          hostname: 'washingtonpost.as.arkadiumhosted.com',
+          hostname: process.env.ORIGIN,
           path: '/API/game',
           method: 'GET'
         }, function (res) {
