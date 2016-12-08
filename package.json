@@ -1,0 +1,32 @@
+{
+  "name": "games-widget-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^0.14.52",
+    "@types/react-dom": "^0.14.19",
+    "@types/redux-logger": "^2.6.32",
+    "@types/redux-thunk": "^2.1.32",
+    "@types/whatwg-fetch": "0.0.32",
+    "hapi": "^16.0.1",
+    "inert": "^4.0.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.3.1",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "uuid4": "^1.0.0",
+    "webpack": "^1.13.3",
+    "whatwg-fetch": "^2.0.1"
+  }
+}
